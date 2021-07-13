@@ -83,7 +83,8 @@ const managerQ = () => {
 
             if (answers.addanother) {
                 teamcomposition();
-            } else {
+            } 
+     else {
                 let data = render(employeedata);
                 fs.writeFile(OUTPUT_PATH, data, (err) => {
                     if (err) throw err;
@@ -131,7 +132,9 @@ const engineerQ = () => {
 
             if (answers.addanother) {
                 teamcomposition();
-            } else {
+            } 
+     else 
+     {
                 let data = render(employeedata);
                 fs.writeFile(OUTPUT_PATH, data, (err) => {
                     if (err) throw err;
@@ -179,7 +182,9 @@ const internQ = () => {
 
             if (answers.addanother) {
                 teamcomposition();
-            } else {
+            }
+     else
+     {
                 let data = render(employeedata);
                 fs.writeFile(OUTPUT_PATH, data, (err) => {
                     if (err) throw err;

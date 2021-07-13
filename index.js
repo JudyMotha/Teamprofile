@@ -1,3 +1,4 @@
+//Follows the Readme generator ex concept
 const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");

@@ -1,5 +1,7 @@
 # Teamprofile
 
+Generate a webpage that displays my team's basic info
+
 https://judymotha.github.io/Teamprofile/
 * Installed dependencies jest and inquirer.
 * Ran npm run test (reference to package json) to pass tests.
